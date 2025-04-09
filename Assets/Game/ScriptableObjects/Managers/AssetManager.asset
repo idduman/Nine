@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7188c4e29853ec46885a38a629e25b5, type: 3}
+  m_Name: AssetManager
+  m_EditorClassIdentifier: 
+  spriteData:
+  - key: VibOn
+    value: {fileID: 21300000, guid: 15a5af26c95624d478cb83eb7c9ae918, type: 3}
+  - key: VibOff
+    value: {fileID: 21300000, guid: 1772121ecec979e4dadd4b216e8c9dba, type: 3}
+  prefabData:
+  - key: CurrencyUI
+    value: {fileID: 7078052751950962889, guid: 3d3b57cfd61894a41ad18f5e2e12521e, type: 3}
+  - key: DebugCanvas
+    value: {fileID: 312310050761506576, guid: 3f76189379de0421d86a0b9729df592f, type: 3}
+  - key: PopParticle
+    value: {fileID: 1991899582175775661, guid: 983c035f76e310d4597bdcd54a3d3305, type: 3}
+  - key: ShapeTile
+    value: {fileID: 2002146804952081619, guid: 7311f05de8e0b0846a028beca06f7861, type: 3}
+  - key: 1
+    value: {fileID: 919132149155446097, guid: c5418a483bd2f4711b83ddc27da51bbe, type: 3}
+  - key: 2
+    value: {fileID: 919132149155446097, guid: c5418a483bd2f4711b83ddc27da51bbe, type: 3}
+  - key: 3
+    value: {fileID: 919132149155446097, guid: 5f8b6ce222bb74c11a617ee8d28593b4, type: 3}
+  - key: 4
+    value: {fileID: 919132149155446097, guid: 756538d2bc7854312b786430b5069198, type: 3}
+  - key: 5
+    value: {fileID: 919132149155446097, guid: afd0430c450a342e99dce4a3bc83f857, type: 3}
+  - key: 6
+    value: {fileID: 919132149155446097, guid: afefc076565a3458eb3c17f8d533d137, type: 3}
+  - key: 7
+    value: {fileID: 919132149155446097, guid: 84727ae77397c4deb8fcb1d5c2bd0d9a, type: 3}
+  - key: 8
+    value: {fileID: 919132149155446097, guid: dd2143c0fe02d417f958a3da66208698, type: 3}
+  - key: 9
+    value: {fileID: 919132149155446097, guid: fb382cbe1a2f04a319f66eb2b8b26954, type: 3}
+  materialData:
+  - key: Zero
+    value: {fileID: 2100000, guid: 1bdae4b3929cb4f6e939e0b32f0b7177, type: 2}
+  - key: One
+    value: {fileID: 2100000, guid: acf291e1d09d6455aa7a3b9c0190c8ab, type: 2}
+  - key: Two
+    value: {fileID: 2100000, guid: 0e0cf11dffd0b45a6bbbe6643db1ad1a, type: 2}
+  - key: Three
+    value: {fileID: 2100000, guid: 5d0776653d0b30643b211282c4f4a720, type: 2}
+  - key: Four
+    value: {fileID: 2100000, guid: 50b6a31ba364d4c7b9793b8767473631, type: 2}
+  - key: Five
+    value: {fileID: 2100000, guid: 5247da09faf6c4b4daccd0540851920f, type: 2}
+  - key: Six
+    value: {fileID: 2100000, guid: 3435fce212da34b89a9dd5c6b5e7c210, type: 2}
+  - key: Seven
+    value: {fileID: 2100000, guid: bb4e0866336e143da8bc19d4c8ffacb2, type: 2}
+  - key: Eight
+    value: {fileID: 2100000, guid: 8f12e7272551e468fa3d360b1984c618, type: 2}
+  - key: Nine
+    value: {fileID: 2100000, guid: c16f9970e21814a0e8a4a496cb97d6cb, type: 2}
+  - key: Highlight
+    value: {fileID: 2100000, guid: b33463fa2bd622849a88b13cfaf3bd2d, type: 2}
+  textureData:
+  - key: SettingsIcon
+    value: {fileID: 2800000, guid: 56466da0e6b2c4d7caeba670d62488b8, type: 3}
+  - key: NextIcon
+    value: {fileID: 2800000, guid: 877d8f061e0bd4157862d9623e22d688, type: 3}
+  - key: PreviousIcon
+    value: {fileID: 2800000, guid: 30ba15c8632294b2587873c8d58c1180, type: 3}
+  - key: PackageManagerIcon
+    value: {fileID: 2800000, guid: f2dfde043eea5432aba4a23ae320102a, type: 3}
+  - key: TimerIcon
+    value: {fileID: 2800000, guid: c842d6405e74f4bc9af5beb5517f6da6, type: 3}
+  colorData:
+  - key: White
+    value: {r: 0.95699996, g: 0.95699996, b: 0.95699996, a: 1}
+  - key: Blue
+    value: {r: 0, g: 0.11046505, b: 1, a: 1}
+  - key: Cyan
+    value: {r: 0, g: 0.93280387, b: 1, a: 1}
+  - key: Red
+    value: {r: 1, g: 0, b: 0, a: 1}
+  - key: Yellow
+    value: {r: 1, g: 0.96448624, b: 0, a: 1}
+  - key: Magenta
+    value: {r: 1, g: 0, b: 0.75342274, a: 1}
+  - key: Brown
+    value: {r: 0.5660378, g: 0.31367025, b: 0.13616945, a: 1}
+  - key: Green
+    value: {r: 0.06422019, g: 1, b: 0, a: 1}
+  - key: Orange
+    value: {r: 1, g: 0.400387, b: 0, a: 1}
+  - key: Black
+    value: {r: 0.027999999, g: 0.0011666666, b: 0, a: 1}
+  - key: HighlightItem
+    value: {r: 0.4949205, g: 1, b: 0, a: 1}

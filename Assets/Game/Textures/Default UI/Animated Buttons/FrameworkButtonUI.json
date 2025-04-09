@@ -1,0 +1,149 @@
+{
+"skeleton": {
+	"hash": "MOXamTPE8aE",
+	"spine": "4.1.06",
+	"x": -335.78,
+	"y": -111.91,
+	"width": 670,
+	"height": 227,
+	"images": "./images/",
+	"audio": "C:/Users/ahmet/Desktop/UI_Framework/Animations"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "BUTTON", "parent": "root", "x": -0.78, "y": 1.09 },
+	{ "name": "BUTTON2", "parent": "BUTTON", "length": 322.51, "rotation": 89.19, "x": -387.64, "y": -180.48 },
+	{ "name": "BUTTON3", "parent": "BUTTON", "x": 4.44, "y": -60.05 }
+],
+"slots": [
+	{ "name": "BUTTON", "bone": "BUTTON", "attachment": "ButtonSkins" },
+	{ "name": "MASK", "bone": "BUTTON3", "attachment": "MASK2" },
+	{ "name": "LIGHT", "bone": "BUTTON2", "attachment": "LIGHT" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"LIGHT": {
+				"LIGHT": { "x": 179.77, "y": 3.68, "rotation": -89.19, "width": 95, "height": 364 }
+			},
+			"MASK": {
+				"MASK": { "x": -5.32, "y": 64.94, "width": 640, "height": 200 },
+				"MASK2": {
+					"type": "clipping",
+					"end": "MASK",
+					"vertexCount": 30,
+					"vertices": [ -279.36, 167, -291.6, 165.78, -300.86, 161.39, -308.14, 156.96, -314.82, 150.8, -320.55, 142.3, -323.4, 135.08, -324.92, 126.79, -323.89, 17.22, -320.99, 8.68, -316.77, 1.41, -312.76, -4.46, -307.45, -9.21, -298.99, -13.82, -290.8, -16.46, -282, -17.09, -241.25, -17.12, 280.78, -17.05, 289.15, -14.15, 299.87, -8.16, 307.77, 0.41, 313.56, 10.33, 315.12, 23.62, 315.17, 127.42, 313.93, 136.11, 310.61, 143.35, 304.86, 151.93, 296.5, 159.29, 286.48, 163.82, 275.24, 167.06 ],
+					"color": "ce3a3aff"
+				}
+			}
+		}
+	},
+	{
+		"name": "Claim",
+		"attachments": {
+			"BUTTON": {
+				"ButtonSkins": { "name": "Claim", "y": 0.5, "width": 670, "height": 227 }
+			}
+		}
+	},
+	{
+		"name": "Continue",
+		"attachments": {
+			"BUTTON": {
+				"ButtonSkins": { "name": "Continue", "width": 670, "height": 228 }
+			}
+		}
+	},
+	{
+		"name": "Retry",
+		"attachments": {
+			"BUTTON": {
+				"ButtonSkins": { "name": "Retry", "y": 0.5, "width": 670, "height": 227 }
+			}
+		}
+	},
+	{
+		"name": "RewardButton",
+		"attachments": {
+			"BUTTON": {
+				"ButtonSkins": { "name": "Reward", "y": 0.5, "width": 670, "height": 227 }
+			}
+		}
+	}
+],
+"animations": {
+	"Bounce": {
+		"bones": {
+			"BUTTON": {
+				"scale": [
+					{
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.211, 0, 0.422, 1.1, 0.211, 0, 0.422, 1.1 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.756, 1.1, 0.878, 1, 0.756, 1.1, 0.878, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"BounceLoop": {
+		"bones": {
+			"BUTTON": {
+				"translate": [
+					{
+						"time": 1.3333,
+						"curve": [ 1.44, 0, 1.627, 0, 1.44, 0, 1.627, 0 ]
+					},
+					{
+						"time": 1.7333,
+						"curve": [ 1.867, 0, 2, 0, 1.867, 0, 2, 0 ]
+					},
+					{ "time": 2.1333 }
+				],
+				"scale": [
+					{
+						"time": 1.3333,
+						"curve": [ 1.387, 1, 1.48, 1.147, 1.387, 1, 1.48, 1.147 ]
+					},
+					{
+						"time": 1.5333,
+						"x": 1.147,
+						"y": 1.147,
+						"curve": [ 1.587, 1.147, 1.68, 1, 1.587, 1.147, 1.68, 1 ]
+					},
+					{
+						"time": 1.7333,
+						"curve": [ 1.787, 1, 1.88, 1.147, 1.787, 1, 1.88, 1.147 ]
+					},
+					{
+						"time": 1.9333,
+						"x": 1.147,
+						"y": 1.147,
+						"curve": [ 2, 1.147, 2.067, 1, 2, 1.147, 2.067, 1 ]
+					},
+					{ "time": 2.1333 }
+				]
+			}
+		}
+	},
+	"Shining": {
+		"bones": {
+			"BUTTON2": {
+				"translate": [
+					{},
+					{ "time": 1, "x": 850.62 },
+					{ "time": 1.6667, "x": 960.74, "curve": "stepped" },
+					{ "time": 2, "x": 960.74 }
+				]
+			}
+		}
+	}
+}
+}

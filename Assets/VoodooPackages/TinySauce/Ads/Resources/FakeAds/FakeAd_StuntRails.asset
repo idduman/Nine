@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69750ba5dfe5146e0ae2ca14551c3f10, type: 3}
+  m_Name: FakeAd_StuntRails
+  m_EditorClassIdentifier: 
+  iosUrl: https://apps.apple.com/app/id1620356495
+  androidUrl: https://play.google.com/store/apps/details?id=com.nopact.stuntrails
+  firstScreen: {fileID: 21300000, guid: 79ec9ee06624c4540a7335ac6ac40196, type: 3}
+  secondScreen: {fileID: 21300000, guid: ac198c8dfdb7b498da0895fc2a736b46, type: 3}
+  position: -834
+  secondScreenAnimation: {fileID: 0}

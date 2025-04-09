@@ -1,0 +1,347 @@
+/*
+css
+root: {
+    --unity-colors-highlight-background: #0000CC;
+    --unity-colors-highlight-background-hover: rgba(256, 256, 256, 0.0827451);
+    --unity-colors-highlight-background-inactive: #313336;
+    --unity-colors-highlight-text: #4C7EFF;
+    --unity-colors-highlight-text-inactive: #FFFFFF;
+}
+
+.dockHeader {
+    background-color: #141516;
+}
+.dragtab:normal {
+    background-color: #141516;
+}
+.dragtab:hover {
+    background-color: #2c2e31;
+}
+.dragtab:active {
+    background-color: #2b2c2f;
+}
+.dragtab:checked {
+    background-color: #2b2c2f;
+}
+.dragtab-first:normal {
+    background-color: #141516;
+}
+.dragtab-first:hover {
+    background-color: #2b2c2f;
+}
+.dragtab-first:active {
+    background-color: #2b2c2f;
+}
+.dragtab-first:checked {
+    background-color: #2b2c2f;
+}
+
+.SirenixPropertyLayout {
+    background-color: #2b2c2f;
+}
+
+.RL-Header {
+    background-color: #252629;
+    border-bottom-width: 2px;
+    border-radius: 2px;
+    border-color: rgba(25,25,32,0.5);
+}
+.RL-Background {
+    background-color: #252629;
+    border-top-width: 1px;
+    border-bottom-width: 2px;
+    border-radius: 2px;
+    border-color: rgba(25,25,32,0.5);
+}
+.RL-Element {
+    background-color: #2b2c2f;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #252629;
+}
+.RL-Footer {
+    background-color: #252629;
+    border-bottom-width: 2px;
+    border-color: rgba(25,25,32,0.5);
+}
+
+.ProjectBrowserIconAreaBg {
+    background-color: #252629;
+}
+.SceneTopBarBg {
+    background-color: #3c3d3e;
+}
+.IN-BigTitle {
+    background-color: #2b2c2f;
+}
+.IN-Title {
+    background-color: #2b2c2f;
+}
+.ObjectFieldButton {
+    background-color: #2b2c2f;
+}
+
+.ToolbarSeachTextFieldPopup {
+    background-color: #1a1b1c;
+}
+.ObjectField {
+    background-color: #1a1b1c;
+}
+.AC-Button:normal {
+    background-color: #393C3F;
+}
+.AC-Button:hover {
+    background-color: #3E4346;
+}
+.TextField {
+    background-color: #1a1b1c;
+}
+.BoldTextField {
+    background-color: #1a1b1c;
+}
+
+
+.AnimationEventBackground {
+    unity-background-image: resource("Editor-Arts/ShadowBar");
+}
+.TimeRulerBackground {
+    background-color: #2b2c2f;
+}
+
+.TabWindowBackground {
+    background-color: #2b2c2f;
+}
+.Toolbar {
+    background-color: #2b2c2f;
+}
+.ToolbarPopup {
+    background-color: #2b2c2f;
+}
+.ToolbarPopupLeft {
+    background-color: #2b2c2f;
+}
+.toolbarbutton:Normal {
+    background-color: #2b2c2f;
+}
+.toolbarbutton:Hover {
+    background-color: #3E4146;
+}
+.toolbarbutton:Active {
+    background-color: #3E4146;
+}
+.toolbarbutton:checked {
+    background-color: rgba(65, 70, 80, 1);
+}
+.AppToolbar {
+    background-color: #010101;
+}
+.toolbarbuttonRight:Normal {
+    background-color: #2b2c2f;
+}
+.toolbarbuttonRight:Hover {
+    background-color: #3E4146;
+}
+.toolbarbuttonRight:Active {
+    background-color: #3E4146;
+}
+.toolbarbuttonRight:checked {
+    background-color: rgba(65, 70, 80, 1);
+}
+
+.ToolbarDropDownToggleRight:Normal {
+    background-color: #2b2c2f;
+}
+.ToolbarDropDownToggleRight:Hover {
+    background-color: #3E4146;
+}
+.ToolbarDropDownToggleRight:Active {
+    background-color: #3E4146;
+}
+.ToolbarDropDownToggleRight:checked {
+    background-color: rgba(65, 70, 80, 1);
+}
+.ToolbarSeachTextField {
+    background-color: #1a1b1c;
+}
+.ToolbarSeachTextFieldPopup {
+    background-color: #1a1b1c;
+}
+
+.HorizontalSlider {
+    background-color: #1a1b1c;
+}
+
+.AnimPlayToolbar {
+    background-color: #2b2c2f;
+}
+.AnimClipToolbar {
+    background-color: #2b2c2f;
+}
+.AnimClipToolbarPopup:normal {
+    background-color: #2b2c2f;
+}
+.AnimClipToolbarPopup:hover {
+    background-color: #1a1b1c;
+}
+.ToolbarTextField {
+    background-color: #1a1b1c;
+}
+.AnimationSelectionTextField {
+    background-color: #1a1b1c;
+}
+.DopesheetBackground {
+    background-color: #1a1b1c;
+}
+.ToolbarBottom {
+    background-color: #2b2c2f;
+}
+
+
+
+.FrameBox {
+    background-color: #313336;
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    border-color: rgba(30,30,35,0.6);
+}
+
+.Tab-first:normal {
+    background-color: #3E4146;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-first:hover {
+    background-color: #45484e;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-first:checked {
+    background-color: #313336;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-middle:normal {
+    background-color: #3E4146;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-middle:hover {
+    background-color: #45484e;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-middle:checked {
+    background-color: #313336;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-last:normal {
+    background-color: #3E4146;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-last:hover {
+    background-color: #45484e;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+.Tab-last:checked {
+    background-color: #313336;
+    border-width: 1px;
+    border-color: rgba(30,30,35,0.6);
+}
+
+.HelpBox {
+    background-color: #313336;
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-color: rgba(30,30,35,0.6);
+}
+
+
+
+
+.IN-Footer {
+    background-color: #2b2c2f;
+}
+.IN-BigTitle {
+    background-color: #313336;
+}
+.PreToolbar {
+    background-color: #313336;
+}
+.PreBackground {
+    background-color: #1a1b1c;
+}
+.WhiteBackground {
+    background-color: #DCDCE6;
+}
+.ScrollViewAlt {
+    background-color: #2b2c2f;
+}
+.ScrollView {
+    background-color: #252629;
+}
+.ProjectBrowserTopBarBg {
+    background-color: #2b2c2f;
+}
+.ProjectBrowserBottomBarBg {
+    background-color: #2b2c2f;
+}
+.GameViewBackground {
+    background-color: #1a1b1c;
+}
+.CN-EntryBackOdd {
+    background-color: #2b2c2f;
+}
+.CN-EntryBackEven {
+    background-color: #2f3034;
+}
+
+
+
+.AppCommandLeft {
+    background-color: #1a1b1c;
+}
+.AppCommandMid {
+    background-color: #1a1b1c;
+}
+.AppCommandRight {
+    background-color: #1a1b1c;
+}
+.AppToolbarButtonLeft {
+    background-color: #1a1b1c;
+}
+.AppToolbarButtonRight {
+    background-color: #1a1b1c;
+}
+.DropDown {
+    background-color: #1a1b1c;
+}
+.AppCommand {
+    background-color: #1a1b1c;
+}
+.Command {
+    background-color: #1a1b1c;
+    border-color: #1a1b1c;
+}
+.MiniPopup {
+    background-color: #3E4146;
+}
+.MiniPullDown {
+    background-color: #3E4146;
+}
+
+
+
+
+
+
+.ShurikenModuleTitle {
+    background-color: #3E4146;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    border-color: #2f3034;
+}
+*/

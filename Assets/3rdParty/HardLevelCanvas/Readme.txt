@@ -1,0 +1,1 @@
+Prefabi level sahnesine instantiate etmeniz yeterli, bitince kendini destroy ediyor

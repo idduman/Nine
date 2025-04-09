@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4b1f7ca14954990469976e66c571fdaa
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _NoTileNoiseTex: {instanceID: 0}
+  - _Ramp: {instanceID: 0}
+  - _DitherTex: {instanceID: 0}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

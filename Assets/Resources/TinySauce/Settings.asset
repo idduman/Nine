@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa11ec82e9746928e211e7f096812ca, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  gameAnalyticsIosGameKey: 626452c79814fe8345eb4eef894c0f53
+  gameAnalyticsIosSecretKey: decefef8b5e99f4064fcf2236fa8ee21fcdf0acf
+  gameAnalyticsAndroidGameKey: 164a075486d5b52a44ca904f3a29c482
+  gameAnalyticsAndroidSecretKey: d8beb193b12f6d89f70fb3c04472e49611e38a1d
+  facebookAppId: 1365139021566507
+  facebookClientToken: 07e1e26d8e5e3d3a1c74d8a7c941faf5
+  adjustIOSToken: ltqqfid29zwg
+  adjustAndroidToken: ej0wdj0rkwsg
+  EditorIdfa: 450ba3d8-598a-4c7f-8dce-6bf0ac1f2bb6
+  UseRemoteConfig: 0
+  UseVoodooAnalytics: 1
+  companyName: Garawell
+  privacyPolicyURL: https://docs.google.com/document/d/e/2PACX-1vTybnhwrkFWgwkDX90wvV8VNkJSnM7h16qUojL8E6YMOcmX7XMxPAJqMk_1re5naxhWSzdQvNcEgYtV/pub
+  developerContactEmail: idduman@hotmail.com

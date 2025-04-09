@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3db4497dd874714eb82b2e822c4a0e2, type: 3}
+  m_Name: AudioManager
+  m_EditorClassIdentifier: 
+  audioData:
+  - audioName: ShapeSelect
+    clip: {fileID: 8300000, guid: 1ff97f526988ee844a2a29f2b32f5f43, type: 3}
+    volume: 0.9
+    minPitch: 1
+    maxPitch: 1
+    pitchIncrementValue: 0
+    picthIncreaseMode: 0
+    isMusic: 0
+  - audioName: ShapeAdd
+    clip: {fileID: 8300000, guid: fd2f10ef05538c24e8fe1fc448ae9dcc, type: 3}
+    volume: 0.9
+    minPitch: 1
+    maxPitch: 1
+    pitchIncrementValue: 0.1
+    picthIncreaseMode: 0
+    isMusic: 0
+  - audioName: Flip
+    clip: {fileID: 8300000, guid: 8cbf8474deacde54dad89de0a99de8cb, type: 3}
+    volume: 0.8
+    minPitch: 1
+    maxPitch: 1
+    pitchIncrementValue: 0.1
+    picthIncreaseMode: 0
+    isMusic: 0
+  - audioName: Blast
+    clip: {fileID: 8300000, guid: bd469ff6a8b2b0347b89280fe1be629b, type: 3}
+    volume: 0.8
+    minPitch: 1
+    maxPitch: 1
+    pitchIncrementValue: 0.1
+    picthIncreaseMode: 0
+    isMusic: 0
+  - audioName: Win
+    clip: {fileID: 8300000, guid: 2ae4646ff69988544bdfdd22454534a4, type: 3}
+    volume: 0.7
+    minPitch: 1
+    maxPitch: 1
+    pitchIncrementValue: 0
+    picthIncreaseMode: 0
+    isMusic: 0
+  - audioName: Lose
+    clip: {fileID: 8300000, guid: 0e2d86c4ac68d9445941462de53e7c3e, type: 3}
+    volume: 0.7
+    minPitch: 1
+    maxPitch: 1
+    pitchIncrementValue: 0
+    picthIncreaseMode: 0
+    isMusic: 0
+  - audioName: NextLevel
+    clip: {fileID: 8300000, guid: a02d6cecf25caf34c873c3a01164f129, type: 3}
+    volume: 0.8
+    minPitch: 1
+    maxPitch: 1
+    pitchIncrementValue: 0
+    picthIncreaseMode: 0
+    isMusic: 0
